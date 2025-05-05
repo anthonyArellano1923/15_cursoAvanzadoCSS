@@ -1,0 +1,42 @@
+/* - Crea los htlm y css correspondientes.
+- Asigna un estilo de background, color y borde al div que tiene un párrafo.
+- Crea un label que dentro posea un input de tipo check. Asigna estilos de cambio de color al label cuando el input esté checked usando :has()
+- Crea 2 tablas, titulos: nombre y apellido. Una con contenido y una sin contenido. Crea un p hermano que contenga el texto ¡Esta tabla tiene contenido! Con has define que el display de los p hermanos de una tabla con contenido sea block. Por defecto, p deben tener su display block. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ html {
+  font-size: 62,5%;
+ }
+
+body {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+head, main {
+  margin-top: 3rem;
+}
+
+
+
+:is(h1, h2, h3) {
+  text-align: center;
+  color: rgb(41, 41, 140);
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+main :is(article, section, aside, div){
+  margin-top: 1rem;
+}
+
+:is(article, section, aside) a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
