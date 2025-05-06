@@ -1,0 +1,18 @@
+/* 
+- Crea 2 secciones, una con clase .destacado, otra sin clase. Con is, coloca de color azul todos los elementos de la clase mencionada antes.
+- Comenta la regla creada en el paso anterior. Usando where, asigna otro color.
+- Ahora, a la clase .destacado asigna color rojo y observa la propiedad que domina por nivel de especificidad.
+- Descomenta la regla :is() y antepone el selector de elemento section para observar el nivel de especificidad.
+*/
+
+section:is(.destacado) {
+  color: blue;
+}
+
+:where(.destacado) {
+  color: red;
+}
+
+.destacado {
+  color: green;
+}
