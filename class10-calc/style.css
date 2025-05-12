@@ -1,0 +1,11 @@
+.container {
+  width: calc(100% - 500px);
+  color: white;
+  background-color: violet;
+  padding: 30px;
+  text-align: center;
+}
+
+.fuente {
+  font-size: calc(1rem + 4vw);
+}
