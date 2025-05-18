@@ -28,6 +28,6 @@
 }
 
 .caja1:hover, .caja2:hover, .caja3:hover {
-  background-color: color-mix(in srgb, darkgoldenrod 65%, darkcyan 35%);
+  background-color: color-mix(in srgb, darkgoldenrod 65%, darkcyan);
 }
 
