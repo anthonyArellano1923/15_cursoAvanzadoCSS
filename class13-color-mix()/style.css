@@ -1,0 +1,33 @@
+.caja1 {
+  background-color: darkblue;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  transition: background-color 1s ease-in-out;
+}
+
+.caja2 {
+  background-color: darkgreen;
+  width: 200px;
+  height: 200px;
+  transition: background-color 1s ease-in-out;
+}
+
+.caja3 {
+  background-color: darkmagenta;
+  width: 200px;
+  height: 200px;
+  transition: background-color 1s ease-in-out;
+}
+
+.container {
+  margin: 50px auto;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.caja1:hover, .caja2:hover, .caja3:hover {
+  background-color: color-mix(in srgb, darkgoldenrod 65%, darkcyan 35%);
+}
+
