@@ -1,0 +1,23 @@
+.oklch {
+  background-color: oklch(0.65 0.1455 257.94);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.oklab {
+  background-color: oklab(48% 0.098 0.234);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.hwb {
+  background-color: hwb(229 25% 39%);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
